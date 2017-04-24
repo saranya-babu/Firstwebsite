@@ -1,0 +1,180 @@
+#heading
+{
+	font-style: initial;
+	font-size: 23px;
+	 font-family: 'Cardo', serif;
+	 background-color:   #00AAD6;
+ ;
+
+
+}
+
+#hero
+{
+	padding: 60px;
+margin-bottom: 30px;
+font-size: 18px;
+font-weight: 40;
+line-height: 40px;
+color: inherit;
+background-color: #eeeeee;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+width: 1380px;
+height: 600px;
+margin-top: 10px;
+}
+
+#logo
+{
+	width: 12%;
+	float: left;
+
+}
+#homepage
+{
+	width: 88%;
+	float: right;
+
+}
+#position
+{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 70px;
+    line-height:70px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active
+{
+	background-color: #333;
+}
+
+h1
+{
+	color:  #0e6655  ;
+}
+p
+{
+	color: #fff ;
+	
+}
+
+#imageref
+{
+	margin-left: 300px;
+}
+
+.footerlist
+{
+	margin-left: 300px;
+	width: 100%;
+	color: #fff;
+	font-size: 18px;
+}
+
+.footercls
+{
+	background-color: black;
+}
+.footerhgt
+{
+	height: 200px;
+	width: 300px;
+}
+.footer
+{
+	text-align: center;
+}
+
+
+.logosession
+{
+	background-image: url(/img/businesslogoimg.jpg);background-repeat: no-repeat;background-size: cover;
+}
+.h2content
+{
+	color:#fff;
+}
+.heropagestyle
+{
+	margin-left: 460px;background-position: center;
+}
+.heropagecontent
+{
+	color: black;text-align: center; font-size: 18;
+}
+
+.title
+{
+	color:black; text-align:center;
+}
+
+.herohead
+{
+	text-align: center;font: 20;color: black;
+}
+
+.gridclass
+{
+	 text-align: center;color: #2c3e50  ;font-size: 22px ;
+}
+.footermaindiv
+{
+	background-color: black;height:180px;
+}
+.footercont12
+{
+	height:100px;
+}
+.footercont4
+{
+	height: 200px;
+}
+
+.footerfont
+{
+	font-style: italic;font-size: 28px";
+}
+.footericon
+{
+	color: white;font-style: italic;font-size: 28px;
+}
+.icon
+{
+	color:blue;font-size: 20px";
+}
+.footergrid
+{
+	height: 220px
+}
+.herogrid
+{
+	height: 550px;
+}
