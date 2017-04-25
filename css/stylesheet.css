@@ -12,6 +12,11 @@
  	position: relative;
  }
 
+ .pagealign
+ {
+ 	margin-right: 0%;
+ }
+
 #hero
 {
 	padding: 60px;
@@ -29,26 +34,26 @@ margin-top: 10px;
 
 #logo
 {
-	width: 12%;
+	width: 11%;
 	float: left;
 
 }
 #homepage
 {
-	width: 88%;
+	width: 89%;
 	float: right;
+	overflow: hidden;
 
 }
 #position
 {
 	position: fixed;
-	width: 100%;
+	width: 99%;
 	top: 0px;
-
 }
 
 
-ul {
+section ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -56,11 +61,11 @@ ul {
     background-color: #333;
 }
 
-li {
+section ul li {
     float: right;
 }
 
-li a {
+section ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -70,7 +75,7 @@ li a {
     line-height:70px;
 }
 
-li a:hover {
+section ul li a:hover {
     background-color: #111;
 }
 .active
@@ -124,10 +129,14 @@ p
 {
 	color:#fff;
 }
+
 .heropagestyle
 {
-	margin-left: 460px;background-position: center;
+	margin-right: 30%;
+	margin-left: 35%;
+
 }
+
 .heropagecontent
 {
 	color: black;text-align: center; font-size: 18;
@@ -138,6 +147,7 @@ p
 	margin-top: 140px;
 	color:black; 
 	text-align:center;
+	
 }
 
 .herohead
@@ -166,14 +176,15 @@ p
 }
 .footercont4
 {
-	height: 200px;
+	height: 120px;
 }
 
 .footerfont
 {
-	font-style: italic;font-size: 28px";
+	font-style: italic;
+	font-size: 28px;
 }
-.footericon
+.social-icon
 {
 	color: white;
 	font-style: italic;
@@ -182,7 +193,7 @@ p
 .icon
 {
 	color:white;
-	font-size: 20px";
+	font-size: 20px;
 }
 .footergrid
 {
@@ -191,4 +202,31 @@ p
 .herogrid
 {
 	height: 550px;
+}
+
+.gridalign
+{
+	margin-top: 40px;
+	margin-bottom:100px;
+}
+
+article a
+{
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+}
+article a :hover
+{
+	
+	text-decoration: underline;
+}
+#footerid
+{
+	width: 100%
+	height:100%;
+	clear: both;
+	background-color: black;
+	margin: auto;
 }
