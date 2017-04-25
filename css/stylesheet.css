@@ -1,57 +1,18 @@
-#heading
-{
-	font-style: initial;
-	font-size: 23px;
-	 font-family: 'Cardo', serif;
-	 background-color:   #00AAD6;
+/*header section style sheet*/
 
- }
-
- .pagedesign
- {
- 	position: relative;
- }
-
- .pagealign
- {
- 	margin-right: 0%;
- }
-
-#hero
-{
-	padding: 60px;
-margin-bottom: 30px;
-font-size: 18px;
-font-weight: 40;
-line-height: 40px;
-color: inherit;
-background-color: #eeeeee;
--webkit-border-radius: 6px;
--moz-border-radius: 6px;
-border-radius: 6px;
-margin-top: 10px;
-}
-
-#logo
-{
-	width: 11%;
-	float: left;
-
-}
-#homepage
-{
-	width: 89%;
-	float: right;
-	overflow: hidden;
-
-}
-#position
+#header-style
 {
 	position: fixed;
 	width: 99%;
 	top: 0px;
 }
 
+#logo-style
+{
+	width: 11%;
+	float: left;
+
+}
 
 section ul {
     list-style-type: none;
@@ -75,6 +36,7 @@ section ul li a {
     line-height:70px;
 }
 
+
 section ul li a:hover {
     background-color: #111;
 }
@@ -93,10 +55,120 @@ p
 	
 }
 
-#imageref
+#nav-link-style
 {
-	margin-left: 300px;
+	font-style: initial;
+	font-size: 23px;
+	 font-family: 'Cardo', serif;
+	 background-color:   #00AAD6;
+
+ }
+
+
+/*landing page style*/
+
+
+#landing-page
+{
+	width: 89%;
+	float: right;
+	overflow: hidden;
+
 }
+
+
+.landing-page-align
+ {
+ 	margin-right: 0%;
+ }
+
+ .landing-page-title
+{
+	margin-top: 140px;
+	color:black; 
+	text-align:center;
+	
+}
+
+.container-body
+{
+	background-image: url(../img/businesslogoimg.jpg);background-repeat: no-repeat;background-size: cover;
+}
+
+.gridPage
+{
+	height: 550px;
+}
+
+.gridPage-head
+{
+	color:#fff;
+} 
+
+/*hero-unit style page*/
+
+#hero-Container
+{
+	padding: 60px;
+margin-bottom: 30px;
+font-size: 18px;
+font-weight: 40;
+line-height: 40px;
+color: inherit;
+background-color: #eeeeee;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+margin-top: 10px;
+}
+
+.heroPageImage
+{
+	margin-right: 30%;
+	margin-left: 35%;
+
+}
+
+.heroPage-head
+{
+	text-align: center;font: 20;color: black;
+}
+
+.heroPage-content
+{
+	color: black;text-align: center; font-size: 18;
+}
+
+
+/*960 grid with 2 column and 3 row*/
+.grid-article-row-content
+{
+	text-align: center;
+    color: #2c3e50;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+
+.grid-article-content
+{
+	text-align: center;
+    color: #2c3e50;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+
+}
+
+.container-align
+{
+	margin-top: 40px;
+	margin-bottom:100px;
+}
+
+
+/*footer page style-sheet*/
 
 .footerlist
 {
@@ -106,109 +178,16 @@ p
 	font-size: 18px;
 }
 
-.footercls
-{
-	background-color: black;
-}
-.footerhgt
-{
-	height: 200px;
-	width: 300px;
-}
-.footer
-{
-	text-align: center;
-}
 
 
-.logosession
-{
-	background-image: url(../img/businesslogoimg.jpg);background-repeat: no-repeat;background-size: cover;
-}
-.h2content
-{
-	color:#fff;
-}
-
-.heropagestyle
-{
-	margin-right: 30%;
-	margin-left: 35%;
-
-}
-
-.heropagecontent
-{
-	color: black;text-align: center; font-size: 18;
-}
-
-.title
-{
-	margin-top: 140px;
-	color:black; 
-	text-align:center;
-	
-}
-
-.herohead
-{
-	text-align: center;font: 20;color: black;
-}
-
-.gridclass
-{
-	 text-align: center;
-	 color: #2c3e50;  
-	 font-size:22px ;
-	 margin-top: 20px;
-	 margin-bottom: 2px;
-
-}
-.footermaindiv
-{
-	background-color: black;
-	height:200px;
-	margin-top: 20px;
-}
-.footercont12
-{
-	height:100px;
-}
-.footercont4
-{
-	height: 120px;
-}
-
-.footerfont
-{
-	font-style: italic;
-	font-size: 28px;
-}
 .social-icon
 {
 	color: white;
 	font-style: italic;
 	font-size: 28px;
 }
-.icon
-{
-	color:white;
-	font-size: 20px;
-}
-.footergrid
-{
-	height: 220px
-}
-.herogrid
-{
-	height: 550px;
-}
 
-.gridalign
-{
-	margin-top: 40px;
-	margin-bottom:100px;
-}
+
 
 article a
 {
@@ -221,6 +200,7 @@ article a :hover
 {
 	
 	text-decoration: underline;
+	color: red;
 }
 #footerid
 {
