@@ -4,10 +4,13 @@
 	font-size: 23px;
 	 font-family: 'Cardo', serif;
 	 background-color:   #00AAD6;
- ;
 
+ }
 
-}
+ .pagedesign
+ {
+ 	position: relative;
+ }
 
 #hero
 {
@@ -21,8 +24,6 @@ background-color: #eeeeee;
 -webkit-border-radius: 6px;
 -moz-border-radius: 6px;
 border-radius: 6px;
-width: 1380px;
-height: 600px;
 margin-top: 10px;
 }
 
@@ -43,6 +44,7 @@ margin-top: 10px;
 	position: fixed;
 	width: 100%;
 	top: 0px;
+
 }
 
 
@@ -133,7 +135,9 @@ p
 
 .title
 {
-	color:black; text-align:center;
+	margin-top: 140px;
+	color:black; 
+	text-align:center;
 }
 
 .herohead
@@ -143,11 +147,18 @@ p
 
 .gridclass
 {
-	 text-align: center;color: #2c3e50  ;font-size: 22px ;
+	 text-align: center;
+	 color: #2c3e50;  
+	 font-size:22px ;
+	 margin-top: 20px;
+	 margin-bottom: 2px;
+
 }
 .footermaindiv
 {
-	background-color: black;height:180px;
+	background-color: black;
+	height:200px;
+	margin-top: 20px;
 }
 .footercont12
 {
@@ -164,11 +175,14 @@ p
 }
 .footericon
 {
-	color: white;font-style: italic;font-size: 28px;
+	color: white;
+	font-style: italic;
+	font-size: 28px;
 }
 .icon
 {
-	color:blue;font-size: 20px";
+	color:white;
+	font-size: 20px";
 }
 .footergrid
 {
