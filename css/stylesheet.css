@@ -14,7 +14,7 @@
 
 }
 
-section ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,11 +22,11 @@ section ul {
     background-color: #333;
 }
 
-section ul li {
+nav ul li {
     float: right;
 }
 
-section ul li a {
+nav ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -143,20 +143,20 @@ margin-top: 10px;
 /*960 grid with 2 column and 3 row*/
 .grid-article-row-content
 {
-	text-align: center;
+	text-align: left;
     color: #2c3e50;
-    font-size: 22px;
-    margin-top: 20px;
-    margin-bottom: 2px;
+    font-size: 18px;
+    margin-top: -10px;
+    margin-bottom: 15px;
 }
 
 
 .grid-article-content
 {
-	text-align: center;
+	text-align: left;
     color: #2c3e50;
-    font-size: 22px;
-    margin-top: 20px;
+    font-size: 18px;
+    margin-top: 30px;
     margin-bottom: 2px;
 
 }
@@ -164,7 +164,7 @@ margin-top: 10px;
 .container-align
 {
 	margin-top: 40px;
-	margin-bottom:100px;
+	margin-bottom:50px;
 }
 
 
@@ -184,19 +184,20 @@ margin-top: 10px;
 {
 	color: white;
 	font-style: italic;
-	font-size: 28px;
+	font-size: 30px;
 }
 
 
 
-article a
+div a
 {
 	color: white;
 	display: block;
 	text-decoration: none;
 	font-size: 20px;
+	margin-top: 2px;
 }
-article a :hover
+div a :hover
 {
 	
 	text-decoration: underline;
@@ -208,5 +209,6 @@ article a :hover
 	height:100%;
 	clear: both;
 	background-color: black;
-	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 2px;
 }
