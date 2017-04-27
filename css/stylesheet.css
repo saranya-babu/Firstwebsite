@@ -103,10 +103,11 @@ p
 
 .grid-page-head
 {
-	font-size: 16px;
+	font-size: 20px;
 	color:#fff;
-	text-align: left;
+	text-align: center;
 	font-style: initial;
+	width: 266.328px;
 } 
 
 .grid-page-para
@@ -114,7 +115,10 @@ p
 	margin-top: 30px;
 	margin-bottom: 20px;
 	font-size: 17px;
-	text-align: left;
+	text-align: justify;
+	width:266.328px;
+;
+
 }
 
 /*hero-unit style page*/
