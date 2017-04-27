@@ -92,13 +92,17 @@ p
 
 .container-body
 {
-	background-image: url(../img/businesslogoimg.jpg);background-repeat: no-repeat;background-size: cover;
+	background-image: url(../img/businesslogoimg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 .grid-page
 {
 	height: 550px;
 	color: white;
+	margin-top: 30px;
 }
 
 .grid-page-head
@@ -115,7 +119,7 @@ p
 	margin-top: 30px;
 	margin-bottom: 20px;
 	font-size: 17px;
-	text-align: justify;
+	t
 	width:266.328px;
 ;
 
@@ -187,16 +191,17 @@ margin-top: 10px;
 
 
 /*footer page style-sheet*/
-.icon-height
-{
-	height: 30px;
 
-}
 .social-icon
 {
 	color: white;
-	font-style: italic;
-	font-size: 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 19px;
+    line-height: 0px;
+    margin-bottom: 30px;
+    f
 }
 .icon-style a
 {
